@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+ li{
+    display: inline;
+    margin:2rem;
+    font-size: 1.5rem;
+ }
+
+ li:hover{
+    color: pink;
+    cursor: pointer;
+ }
+
+ .container{
+    width: 300px;
+    height: 600px;
+    background-color: grey;
+    margin: 100px;
+ }
+
+ .box{
+    width: 100px;
+    height: 100px;
+ }
+
+ .red{
+    background-color: red;
+    position: sticky;
+    top:50px;
+
+
+ }
+
+ .green{
+    background-color: green;
+    position: relative;
+    left: 30px;
+    top: 100px;
+ }
+
+ .blue{
+    background-color: blue;
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+ }
+.spacer{
+    height: 600vh;
+ }
